@@ -21,7 +21,7 @@ const Sidebar: React.FC = () => {
                 `${baseLinkClassName} ${isActive ? activeClassName : ''}`
               }
             >
-              仪表盘
+              首页
             </NavLink>
           </li>
           <li className="mb-3">
@@ -31,7 +31,7 @@ const Sidebar: React.FC = () => {
                 `${baseLinkClassName} ${isActive ? activeClassName : ''}`
               }
             >
-              积分
+              个人积分
             </NavLink>
           </li>
           <li className="mb-3">
